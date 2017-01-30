@@ -69,7 +69,8 @@
     "hacksaw (superior)": {"weight": 1},
     "earplugs": {"weight": 0},
     "hammock": {"weight": 1},
-    "snow goggles": {"weight": 0},
+    "snow goggles (knowledge nature +2)": {"weight": 0},
+    "lumberjack jumpsuit": {"weight": 0},
     "music box": {"weight": 0},
     "women's dress": {"weight": 1}
   }
