@@ -1,9 +1,10 @@
 {
-  "name": "Jerry son of Kord",
+  "name": "Jerry, son of Kord",
   "age": 37,
+  "HP": {"current": 13, "max": 13},
   "height": "6'",
-  "weight": "250",
-  "level": 1,
+  "weight": "247",
+  "level": 2,
   "class": "Fighter",
   "race": "Half-orc",
   "size": "medium",
@@ -28,15 +29,16 @@
   },
   "skills": {
     "jump": {"points": 2, "class": true},
-    "climb": {"points": 2, "class": true}
+    "climb": {"points": 3, "class": true}
   },
   "feats": {
     "Combat Reflexes": "Additional attacks of opportunity",
+    "Endurance": "+4 on checks/saves to resist non-lethal damage",
     "Power Attack": "Trade attack bonus for damage (up to base attack bonus)",
     "Weapon Focus (Greataxe)": "+1 bonus on attack rolls with great axes"
   },
   "inventory": {
-    "steel greataxe": {
+    "steel greataxe (+1)": {
       "damage": "1d12",
       "critical": 3,
       "weight": 12,
@@ -69,6 +71,7 @@
     "earplugs": {"weight": 0},
     "hammock": {"weight": 1},
     "snow goggles": {"weight": 0},
-    "music box": {"weight": 0}
+    "music box": {"weight": 0},
+    "women's dress": {"weight": 1}
   }
 }
