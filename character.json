@@ -13,7 +13,7 @@
   "god": "Kord (God of Strength) (chaotic good)",
   "racials": ["Dark Vision"],
   "classFeatures": ["All simple/martial Weapons", "All armors (including tower shields)"],
-  "baseAttackBonus": 1,
+  "baseAttackBonus": 2,
   "saves": {
     "fort": {"base": 2, "modified": 2},
     "reflex": {"base": 0, "modified": 2},
@@ -33,7 +33,6 @@
   },
   "feats": {
     "Combat Reflexes": "Additional attacks of opportunity",
-    "Endurance": "+4 on checks/saves to resist non-lethal damage",
     "Power Attack": "Trade attack bonus for damage (up to base attack bonus)",
     "Weapon Focus (Greataxe)": "+1 bonus on attack rolls with great axes"
   },
