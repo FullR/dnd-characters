@@ -15,7 +15,7 @@
   "classFeatures": ["All simple/martial Weapons", "All armors (including tower shields)"],
   "baseAttackBonus": 2,
   "saves": {
-    "fort": {"base": 2, "modified": 2},
+    "fort": {"base": 3, "modified": 2},
     "reflex": {"base": 0, "modified": 2},
     "will": {"base": 0, "modified": -1}
   },
