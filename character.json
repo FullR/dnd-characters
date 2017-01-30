@@ -1,0 +1,74 @@
+{
+  "name": "Jerry son of Kord",
+  "age": 37,
+  "height": "6'",
+  "weight": "250",
+  "level": 1,
+  "class": "Fighter",
+  "race": "Half-orc",
+  "size": "medium",
+  "landSpeed": 30,
+  "alignment": "chaotic good",
+  "god": "Kord (God of Strength) (chaotic good)",
+  "racials": ["Dark Vision"],
+  "classFeatures": ["All simple/martial Weapons", "All armors (including tower shields)"],
+  "baseAttackBonus": 1,
+  "saves": {
+    "fort": {"base": 2, "modified": 2},
+    "reflex": {"base": 0, "modified": 2},
+    "will": {"base": 0, "modified": -1}
+  },
+  "stats": {
+    "strength": {"amount": 17, "modifier": 3},
+    "dexterity": {"amount": 14, "modifier": 2},
+    "constitution": {"amount": 11, "modifier": 0},
+    "intelligence": {"amount": 8, "modifier": -1},
+    "wisdom": {"amount": 8, "modifier": -1},
+    "charisma": {"amount": 7, "modifier": -2}
+  },
+  "skills": {
+    "jump": {"points": 2, "class": true},
+    "climb": {"points": 2, "class": true}
+  },
+  "feats": {
+    "Combat Reflexes": "Additional attacks of opportunity",
+    "Power Attack": "Trade attack bonus for damage (up to base attack bonus)",
+    "Weapon Focus (Greataxe)": "+1 bonus on attack rolls with great axes"
+  },
+  "inventory": {
+    "steel greataxe": {
+      "damage": "1d12",
+      "critical": 3,
+      "weight": 12,
+      "type": "slashing"
+    },
+    "hammer (light)": {
+      "damage": "1d4",
+      "critical": 2,
+      "rangeIncrement": 20,
+      "weight": 2,
+      "type": "bludgeoning"
+    },
+    "hide armor": {
+      "armorBonus": 3,
+      "maxDefBonus": 4,
+      "armorCheckPenalty": -3,
+      "weight": 25,
+      "speed": 20
+    },
+    "backpack": {"weight": 2},
+    "rope (hempen) (50ft)": {"weight": 10},
+    "Pot (iron)": {"weight": 10},
+    "shovel": {"weight": 8},
+    "whetstone": {"weight": 1},
+    "flint and steel": {"weight": 0},
+    "blanket (winter)": {"weight": 2},
+    "oil (1 pint)": {"weight": 1},
+    "portable ram": {"weight": 20},
+    "hacksaw (superior)": {"weight": 1},
+    "earplugs": {"weight": 0},
+    "hammock": {"weight": 1},
+    "snow goggles": {"weight": 0},
+    "music box": {"weight": 0}
+  }
+}
